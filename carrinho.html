@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horti-City</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@400;500&family=Sedgwick+Ave+Display&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <div>
+            <h1>Horti-City</h1>
+        </div>
+
+        <div class="divAncoras">
+            <a href="index.html">Home</a>
+            <a href="index.html">Ofertas</a>
+            <a href="frutas.html">Frutas</a>
+            <a href="legumes.html">Legumes</a>
+            <a href="verduras.html">Verduras</a>
+            <a href="carrinho.html">Carrinho de Compras</a>
+        </div>
+
+        <div class="container">
+            <h2>Barra de Pesquisa</h2>
+            <div class="search">
+                <input type="search" placeholder="Pesquisar...">
+                <div class="icon"><i class='bx bx-search-alt'></i></div>
+                <div class="list"></div>
+                <script src="./script.js"></script>
+                <script src="./sugestoes.js"></script>
+            </div>
+        </div>
+    </nav>
+    <header></header>
+
+    <main>
+        <h2>Seu Carrinho de Compras</h2>
+        <ul id="lista-carrinho">
+            <!-- Itens do carrinho aparecerão aqui -->
+        </ul>
+        <p id="total">Total: R$ 0,00</p>
+        <button id="finalizar">Finalizar Compra</button>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Horti City</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

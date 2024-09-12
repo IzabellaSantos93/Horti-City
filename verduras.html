@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Horti-City</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@400;500&family=Sedgwick+Ave+Display&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+</head>
+
+<body>
+  <nav>
+    <div>
+      <h1>Horti-City</h1>
+    </div>
+  
+    <div class="divAncoras">
+        <a href="index.html">Home</a>
+        <a href="index.html">Ofertas</a>
+        <a href="frutas.html">Frutas</a>
+        <a href="legumes.html">Legumes</a>
+        <a href="verduras.html">Verduras</a>
+        <a href="carrinho.html">Carrinho de Compras</a>  
+    </div>
+
+    <div class="container">
+      <h2>Barra de Pesquisa</h2>
+      <div class="search">
+        <input type="search" placeholder="Pesquisar...">
+        <div class="icon"><i class='bx bx-search-alt'></i></div>
+        <div class="list"></div>
+        <script src="./script.js"></script>
+        <script src="./sugestoes.js"></script>
+      </div>
+    </div>
+  </nav>
+
+  <section id="Verduras">
+    <h2>Verduras</h2>
+    <div class="caixaPrincipal">
+      <div>
+        <img src="https://mercadoorganico.com/6323-large_default/acelga-organica-un-osm.jpg" alt="Acelga">
+        <p>Acelga</p>
+        <h3>R$6,79</h3>
+        <button class="adicionar" data-produto="Acelga" data-preco="6.79">Adicionar ao Carrinho</button>
+      </div>
+      <div>
+        <img src="./verduras-Agrião-1586828373176.jpg" alt="Agrião">
+        <p>Agrião</p>
+        <h3>R$5,70</h3>
+        <button class="adicionar" data-produto="Agrião" data-preco="5.70">Adicionar ao Carrinho</button>
+      </div>
+      <div>
+        <img src="./brocolis.jpg" alt="Brócolis">
+        <p>Brócolis</p>
+        <h3>R$6,99</h3>
+        <button class="adicionar" data-produto="Brócolis" data-preco="6.99">Adicionar ao Carrinho</button>
+      </div>
+      <div>
+        <img src="./132758-couve-flor-unidade.webp" alt="Couve-Flor">
+        <p>Couve-Flor</p>
+        <h3>R$5,90</h3>
+        <button class="adicionar" data-produto="Couve-Flor" data-preco="5.90">Adicionar ao Carrinho</button>
+      </div>
+      <div>
+        <img src="https://d3ugyf2ht6aenh.cloudfront.net/stores/746/397/products/espinafre1-ed76ff40a5a3ea67ca16665693230422-640-0.webp" alt="Espinafre">
+        <p>Espinafre</p>
+        <h3>R$7,99</h3>
+        <button class="adicionar" data-produto="Espinafre" data-preco="7.99">Adicionar ao Carrinho</button>
+      </div>
+      <div>
+        <img src="https://ibassets.com.br/ib.item.image.big/b-571119527cb746feb97e4d588103b78c.jpeg" alt="Hortelã">
+        <p>Hortelã</p>
+        <h3>R$6,00</h3>
+        <button class="adicionar" data-produto="Hortelã" data-preco="6.00">Adicionar ao Carrinho</button>
+      </div>
+      <div>
+        <img src="https://www.proativaalimentos.com.br/image/cache/catalog/img_prod/1839128[1]-1000x1000.jpg" alt="Alface">
+        <p>Alface</p>
+        <h3>R$2,50</h3>
+        <button class="adicionar" data-produto="Alface" data-preco="2.50">Adicionar ao Carrinho</button>
+      </div>
+      <div>
+        <img src="https://s3-sa-east-1.amazonaws.com/rocky-2c5b937991b0cfc379dbf5f675740298/360b4f22c3b40266d0c62f8eeaa2dc02.png" alt="Couve-Folha">
+        <p>Couve-Folha</p>
+        <h3>R$2,99</h3>
+        <button class="adicionar" data-produto="Couve-Folha" data-preco="2.99">Adicionar ao Carrinho</button>
+      </div>
+      <div>
+        <img src="./137546---2114330000000---rucula-org-un.webp" alt="Rúcula">
+        <p>Rúcula</p>
+        <h3>R$7,99</h3>
+        <button class="adicionar" data-produto="Rúcula" data-preco="7.99">Adicionar ao Carrinho</button>
+      </div>
+      <div>
+        <img src="oregano1-c43ad8ac09ab52684415902575418056-640-0.jpg" alt="Orégano">
+        <p>Orégano</p>
+        <h3>R$3,99</h3>
+        <button class="adicionar" data-produto="Orégano" data-preco="3.99">Adicionar ao Carrinho</button>
+      </div>
+      <div>
+        <img src="folha-de-mostarda-refogada-37829.jpg" alt="Folha de Mostarda">
+        <p>Folha de Mostarda</p>
+        <h3>R$5,99</h3>
+        <button class="adicionar" data-produto="Folha de Mostarda" data-preco="5.99">Adicionar ao Carrinho</button>
+      </div>
+      <div>
+        <img src="chicoria.webp" alt="Chicória">
+        <p>Chicória</p>
+        <h3>R$3,99</h3>
+        <button class="adicionar" data-produto="Chicória" data-preco="3.99">Adicionar ao Carrinho</button>
+      </div>
+    </div>
+  </section>
+</body>
+
+</html>

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horti-City</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@400;500&family=Sedgwick+Ave+Display&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <div>
+            <h1>Horti-City</h1>
+        </div>
+
+        <div class="divAncoras">
+            <a href="index.html">Home</a>
+            <a href="index.html">Ofertas</a>
+            <a href="frutas.html">Frutas</a>
+            <a href="legumes.html">Legumes</a>
+            <a href="verduras.html">Verduras</a>
+            <a href="carrinho.html">Carrinho de Compras</a>
+        </div>
+
+        <div class="container">
+            <h2>Barra de Pesquisa</h2>
+            <div class="search">
+                <input type="search" placeholder="Pesquisar...">
+                <div class="icon"><i class='bx bx-search-alt'></i></div>
+                <div class="list"></div>
+                <script src="./script.js"></script>
+                <script src="./sugestoes.js"></script>
+            </div>
+        </div>
+    </nav>
+
+  <section id="Ofertas">
+    <h2>Ofertas</h2>
+    <div class="caixaPrincipal">
+      <div>
+        <img
+          src="https://cdn.shoppub.io/cdn-cgi/image/w=1000,h=1000,q=80,f=auto/cenourao/media/uploads/produtos/foto/dc1f0bf8b4a3file.png"
+          alt="Banana Nanica">
+        <p>Banana Nanica</p>
+        <h3>R$10.79</h3>
+        <button class="adicionar" data-produto="Banana Nanica" data-preco="10.79">Adicionar ao Carrinho</button>
+      </div>
+      <div>
+        <img src="https://ibassets.com.br/ib.item.image.big/b-b10ccd91eb7a4c3b9ef32a68af0c71a7.jpeg" alt="Maçã Gala">
+        <p>Maçã Gala</p>
+        <h3>R$9.98</h3>
+        <button class="adicionar" data-produto="Maçã Gala" data-preco="9.98">Adicionar ao Carrinho</button>
+      </div>
+      <div>
+        <img
+          src="https://cdn.shoppub.io/cdn-cgi/image/w=1000,h=1000,q=80,f=auto/cenourao/media/uploads/produtos/foto/4068cc2bd360file.png"
+          alt="Laranja Pera">
+        <p>Laranja Pera</p>
+        <h3>R$12.90</h3>
+        <button class="adicionar" data-produto="Laranja Pera" data-preco="12.90">Adicionar ao Carrinho</button>
+      </div>
+      <div>
+        <img src="https://52586.cdn.lojaquevende.com.br/static/52586/sku/legumes-Batata-Inglesa-1585849647570.jpg"
+          alt="Batata Inglesa">
+        <p>Batata Inglesa</p>
+        <h3>R$7,00</h3>
+        <button class="adicionar" data-produto="Batata Inglesa" data-preco="7.00">Adicionar ao Carrinho</button>
+      </div>
+      <div>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUKNTFlkYdQ2YkCOmvJ2ICLcKAld6DUJtob5LFY8bqZg&s"
+          alt="Cenoura">
+        <p>Cenoura</p>
+        <h3>R$6.00</h3>
+        <button class="adicionar" data-produto="Cenoura" data-preco="6.00">Adicionar ao Carrinho</button>
+      </div>
+      <div>
+        <img src="https://www.proativaalimentos.com.br/image/cache/catalog/img_prod/Tomate-Cereja-6[1]-1000x1000.jpg"
+          alt="Tomate">
+        <p>Tomate</p>
+        <h3>R$5.00</h3>
+        <button class="adicionar" data-produto="Tomate" data-preco="5.00">Adicionar ao Carrinho</button>
+      </div>
+      <div>
+        <img src="https://www.proativaalimentos.com.br/image/cache/catalog/img_prod/1839128[1]-1000x1000.jpg"
+          alt="Alface">
+        <p>Alface</p>
+        <h3>R$2.50</h3>
+        <button class="adicionar" data-produto="Alface" data-preco="2.50">Adicionar ao Carrinho</button>
+      </div>
+      <div>
+        <img
+          src="https://s3-sa-east-1.amazonaws.com/rocky-2c5b937991b0cfc379dbf5f675740298/360b4f22c3b40266d0c62f8eeaa2dc02.png"
+          alt="Couve de folha Manteiga">
+        <p>Couve-de-folha Manteiga</p>
+        <h3>R$2.99</h3>
+        <button class="adicionar" data-produto="Couve de folha Manteiga" data-preco="2.99">Adicionar ao
+          Carrinho</button>
+      </div>
+      <div>
+        <img src="./Cebola.png" alt="Cebola">
+        <p>Cebola</p>
+        <h3>R$7.99</h3>
+        <button class="adicionar" data-produto="Cebola" data-preco="7.99">Adicionar ao Carrinho</button>
+      </div>
+      <div>
+        <img src="chicoria.webp" alt="Chicória">
+        <p>Chicória</p>
+        <h3>R$3.99</h3>
+        <button class="adicionar" data-produto="Chicória" data-preco="3.99">Adicionar ao Carrinho</button>
+      </div>
+      <div>
+        <img src="./melancia.jpg" alt="Melancia">
+        <p>Melancia</p>
+        <h3>39.99</h3>
+        <button class="adicionar" data-produto="Melancia" data-preco="39.99">Adicionar ao Carrinho</button>
+      </div>
+      <div>
+        <img src="FAVA-BRANCA-GRAUDA.jpg" alt="FAVA-BRANCA-GRAUDA">
+        <p>Fava-Branca</p>
+        <h3>R$48.50</h3>
+        <button class="adicionar" data-produto="FAVA-BRANCA-GRAUDA" data-preco="48.50">Adicionar ao Carrinho</button>
+      </div>
+    </div>
+</body>
+
+</html>
